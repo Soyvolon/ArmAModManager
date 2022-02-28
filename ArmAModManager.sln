@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmAModManager", "ArmAModManager\ArmAModManager.csproj", "{3965762C-9C7A-478D-89F3-A342349BEF1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmAModManager", "ArmAModManager\ArmAModManager.csproj", "{3965762C-9C7A-478D-89F3-A342349BEF1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmAModManager.Server", "ArmAModManager.Server\ArmAModManager.Server.csproj", "{70A2646D-EBDC-4C8F-BE95-344B797A8519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmAModManager.Server", "ArmAModManager.Server\ArmAModManager.Server.csproj", "{70A2646D-EBDC-4C8F-BE95-344B797A8519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmAModManager.Core", "ArmAModManager.Core\ArmAModManager.Core.csproj", "{BE495A88-F68A-4EA2-B7E9-02D68FE26068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmAModManager.Core", "ArmAModManager.Core\ArmAModManager.Core.csproj", "{BE495A88-F68A-4EA2-B7E9-02D68FE26068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. sln", "1. sln", "{029B066A-3F80-4049-8461-47A65D323ECE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
